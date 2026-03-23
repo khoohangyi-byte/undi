@@ -38,7 +38,10 @@ if (session_status() == PHP_SESSION_NONE) {
         echo "<h5>Selamat datang $pengundi[namapengundi]</h5>";
     }
     ?>
+    
 </nav>
+
+
 
 <script>
 function papar() {

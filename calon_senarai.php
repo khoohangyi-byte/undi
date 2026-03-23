@@ -25,7 +25,7 @@ include("admin_menu.php");
                 <td>$calon[idcalon]</td>
                 <td>$calon[namacalon]</td>
                 <td><img width=100 src='imej/$calon[gambar]'></td>
-                <td>$calon[moto]</td>
+                <td>$calon[harga]</td>
                 <td>
                     <a href='calon_update.php?idcalon=$idcalon' title='update'>
                         <img src='imej/refresh.png'>

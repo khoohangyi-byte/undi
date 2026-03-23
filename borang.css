@@ -1,0 +1,75 @@
+body {
+    background-image: url(imej/back.jpg);
+}
+
+p.saiz {
+    font-family: verdana;
+    font-size: 14px;
+    color: black;
+}
+
+h3 {
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 10px 22px;
+    width: 380px;
+    border-radius: 15px 15px 0px 0px;
+    margin: 30px auto 0px;
+    background-color: rgba(134, 81, 18, 0.92);
+    box-shadow: 15px 15px 6px 0px rgba(78, 72, 72, 0.5);
+}
+
+form {
+    text-align: center;
+    width: 380px;
+    padding: 20px;
+    border: 2px solid rgba(134, 81, 18, 0.92);
+    border-radius: 0px 0px 15px 15px;
+    margin: 0px auto;
+    background-color: rgba(255, 224, 187, 0.85);
+    box-shadow: 15px 15px 6px 0px rgba(78, 72, 72, 0.5);
+}
+
+h4 {
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    width: 380px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 20px auto 0px;
+    background-color: rgba(253, 211, 181, 0.72);
+    box-shadow: 15px 15px 6px 0px rgba(78, 72, 72, 0.5);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"],
+select {
+    width: 230px;
+    padding: 7px 15px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+::placeholder {
+    color: silver;
+}
+
+input[type="file"] {
+    padding: 3px;
+}
+
+td:nth-child(1) {
+    font-family: verdana;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    width: 200px;
+}
